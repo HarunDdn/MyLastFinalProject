@@ -7,7 +7,7 @@ using System.Text;
 namespace Entities.DTOs
 {
     public class ProductDetailDto:IDto
-    {
+    { //TODO: Veri Tabanı Tablolar Arası İlişkiler- Tablo Birleştirme
         public int ProductId { get; set; }
         public string ProductName { get; set; }
         public string CategoryName { get; set; }
