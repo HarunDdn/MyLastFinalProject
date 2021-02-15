@@ -8,6 +8,7 @@ using System.Text;
 
 namespace Core.DataAccess.EntityFramework
 {
+    //TEntity,TContext: bana bir çalışacağım tablo (Product,Category), bir de context tipi ver demek
     public class EfEntityRepositoryBase<TEntity,TContext>: IEntityRepository<TEntity>
         where TEntity: class, IEntity, new()
         where TContext : DbContext,new()
